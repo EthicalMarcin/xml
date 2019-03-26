@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT dokument (nagłówek|książki|autorzy)*>
+<!ELEMENT nagłówek (uczelnia|wydział|miasto|data|autorzy)*>
+<!ELEMENT uczelnia (#PCDATA)>
+<!ELEMENT wydział (#PCDATA)>
+<!ELEMENT miasto (#PCDATA)>
+<!ELEMENT data_ostatniej_modyfikacji (#PCDATA)>
+<!ELEMENT studenci (student)*>
+<!ELEMENT student (imię|nazwisko|numer_indeksu|kierunek|semestr)*>
+<!ATTLIST student
+    id ID #IMPLIED
+  >
+<!ELEMENT imię (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT numer_indeksu (#PCDATA)>
+<!ELEMENT kierunek (#PCDATA)>
+<!ELEMENT semestr (#PCDATA)>
+
+<!ELEMENT książki (album)*>
+<!ELEMENT album (tytuł|rok|gatunek)*>
+<!ATTLIST album 
+    id ID #IMPLIED
+    idref IDREF #IMPLIED
+  >
+<!ATTLIST album idref (WilliamShakespeare|AdamMickiewicz|ElizaOrzeszkowa|AndrzejSapkowski|FiodorDostojewski)>
+<!ELEMENT tytuł (#PCDATA)>
+<!ELEMENT rok (#PCDATA)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ELEMENT autorzy (autor)*>
+<!ELEMENT autor (kraj)*>
+<!ATTLIST autor
+    id ID #IMPLIED
+  >
+<!ELEMENT kraj (#PCDATA)>

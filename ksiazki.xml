@@ -25,154 +25,154 @@
 	</studenci>
     </nagłówek>
     <książki>
-            <książka id="książka_1" idref="WilliamShakespeare">
+            <książka id="książka_1" idref="autor_1">
                     <tytuł>Makbet</tytuł>
                     <rok>1606</rok>
                     <gatunek>Tragedia</gatunek>
             </książka>
-            <książka id="książka_2" idref="AdamMickiewicz">
+            <książka id="książka_2" idref="autor_2">
                     <tytuł>Ballady i romanse</tytuł>
                     <rok>1822</rok>
                     <gatunek>Ballada</gatunek>
             </książka>
-            <książka id="książka_3" idref="ElizaOrzeszkowa">
+            <książka id="książka_3" idref="autor_3">
                     <tytuł>Nad Niemnem</tytuł>
                     <rok>2015</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
-            <książka id="książka_4" idref="AndrzejSapkowski">
+            <książka id="książka_4" idref="autor_4">
                     <tytuł>Pani Jeziora</tytuł>
                     <rok>1999</rok>
                     <gatunek>Powieść fantasy</gatunek>
             </książka>
-            <książka id="książka_5" idref="FiodorDostojewski">
+            <książka id="książka_5" idref="autor_5">
                     <tytuł>Notatki z podziemia</tytuł>
                     <rok>1864</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
-            <książka id="książka_6" idref="WilliamShakespeare">
+            <książka id="książka_6" idref="autor_1">
                     <tytuł>Romeo i Julia</tytuł>
                     <rok>1597</rok>
                     <gatunek>Dramat</gatunek>
             </książka>
-            <książka id="książka_7" idref="AdamMickiewicz">
+            <książka id="książka_7" idref="autor_2">
                     <tytuł>Lilje</tytuł>
                     <rok>2016</rok>
                     <gatunek>Ballada</gatunek>
             </książka>
-            <książka id="książka_8" idref="ElizaOrzeszkowa">
+            <książka id="książka_8" idref="autor_3">
                     <tytuł>Ascetka</tytuł>
                     <rok>2016</rok>
                     <gatunek>Opowiadanie</gatunek>
             </książka>
-            <książka id="książka_9" idref="AndrzejSapkowski">
+            <książka id="książka_9" idref="autor_4">
                     <tytuł>Ostatnie życzenie</tytuł>
                     <rok>1993</rok>
                     <gatunek>Zbiór opowiadań</gatunek>
             </książka>
-            <książka id="książka_10" idref="FiodorDostojewski">
+            <książka id="książka_10" idref="autor_5">
                     <tytuł>Sobowtór</tytuł>
                     <rok>1846</rok>
                     <gatunek>Nowela</gatunek>
             </książka>
-            <książka id="książka_11" idref="WilliamShakespeare">
+            <książka id="książka_11" idref="autor_1">
                     <tytuł>Sen nocy letniej</tytuł>
                     <rok>1595</rok>
                     <gatunek>Komedia</gatunek>
             </książka>
-            <książka id="książka_12" idref="AdamMickiewicz">
+            <książka id="książka_12" idref="autor_2">
                     <tytuł>Pan Tadeusz</tytuł>
                     <rok>1991</rok>
                     <gatunek>Epopeja</gatunek>
             </książka>
-            <książka id="książka_13" idref="ElizaOrzeszkowa">
+            <książka id="książka_13" idref="autor_3">
                     <tytuł>Bracia</tytuł>
                     <rok>1991</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
-            <książka id="książka_14" idref="AndrzejSapkowski">
+            <książka id="książka_14" idref="autor_4">
                     <tytuł>Miecz Przeznaczenia</tytuł>
                     <rok>1992</rok>
                     <gatunek>Zbiór opowiadań</gatunek>
             </książka>
-            <książka id="książka_15" idref="FiodorDostojewski">
+            <książka id="książka_15" idref="autor_5">
                     <tytuł>Biedni ludzie</tytuł>
                     <rok>1846</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
-            <książka id="książka_16" idref="WilliamShakespeare">
+            <książka id="książka_16" idref="autor_1">
                     <tytuł>Hamlet</tytuł>
                     <rok>1600</rok>
                     <gatunek>Tragedia</gatunek>
             </książka>
-            <książka id="książka_17" idref="AdamMickiewicz">
+            <książka id="książka_17" idref="autor_2">
                     <tytuł>Konrad Wallenrod</tytuł>
                     <rok>1988</rok>
                     <gatunek>Powieść poetycka</gatunek>
             </książka>
-            <książka id="książka_18" idref="ElizaOrzeszkowa">
+            <książka id="książka_18" idref="autor_3">
                     <tytuł>W klatce</tytuł>
                     <rok>1980</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
-            <książka id="książka_19" idref="AndrzejSapkowski">
+            <książka id="książka_19" idref="autor_4">
                     <tytuł>Narrenturm</tytuł>
                     <rok>2002</rok>
                     <gatunek>Powieść historyczna</gatunek>
             </książka>
-            <książka id="książka_20" idref="FiodorDostojewski">
+            <książka id="książka_20" idref="autor_5">
                     <tytuł>Gracz</tytuł>
                     <rok>1966</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
-            <książka id="książka_21" idref="WilliamShakespeare">
+            <książka id="książka_21" idref="autor_1">
                     <tytuł>Komedia omyłek</tytuł>
                     <rok>1591</rok>
                     <gatunek>Komedia</gatunek>
             </książka>
-            <książka id="książka_22" idref="AdamMickiewicz">
+            <książka id="książka_22" idref="autor_2">
                     <tytuł>Dziady</tytuł>
                     <rok>1989</rok>
                     <gatunek>Dramat</gatunek>
             </książka>
-            <książka id="książka_23" idref="ElizaOrzeszkowa">
+            <książka id="książka_23" idref="autor_3">
                     <tytuł>Jest on jeszcze bardzo oddalony...</tytuł>
                     <rok>1989</rok>
                     <gatunek>Nowela</gatunek>
             </książka>
-            <książka id="książka_24" idref="AndrzejSapkowski">
+            <książka id="książka_24" idref="autor_4">
                     <tytuł>Kew elfów</tytuł>
                     <rok>1994</rok>
                     <gatunek>Powieść fantasy</gatunek>
             </książka>
-            <książka id="książka_25" idref="FiodorDostojewski">
+            <książka id="książka_25" idref="autor_5">
                     <tytuł>Zbrodnia i kara</tytuł>
                     <rok>1866</rok>
                     <gatunek>Powieść</gatunek>
             </książka>
     </książki>
     <autorzy>
-        <autor id="WilliamShakespeare">
+        <autor id="autor_1">
             <imię>William</imię>
             <nazwisko>Shakespear</nazwisko>
             <kraj>Wielka Brytania</kraj>
         </autor>
-        <autor id="AdamMickiewicz">
+        <autor id="autor_2">
             <imię>Adam</imię>
             <nazwisko>Mickiewicz</nazwisko>
             <kraj>Polska</kraj>
         </autor>
-        <autor id="ElizaOrzeszkowa">
+        <autor id="autor_3">
             <imię>Eliza</imię>
             <nazwisko>Orzeszkowa</nazwisko>
             <kraj>Polska</kraj>
         </autor>
-        <autor id="AndrzejSapkowski">
+        <autor id="autor_4">
             <imię>Andrzej</imię>
             <nazwisko>Sapkowski</nazwisko>
             <kraj>Polska</kraj>
         </autor>
-        <autor id="FiodorDostojewski">
+        <autor id="autor_5">
             <imię>Fiodor</imię>
             <nazwisko>Dostojewski</nazwisko>
             <kraj>Rosja</kraj>

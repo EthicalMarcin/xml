@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- XML NAMESPACE -->
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" 
+    vc:minVersion="1.1">
+
+<!-- definition of simple elements -->
+<xs:element name="imie" type="xs:string"/>
+<xs:element name="nazwisko" type="xs:string"/>
+<xs:element name="numer_indeksu" type="xs:positiveInteger"/>
+<xs:element name="kierunek" type="xs:string"/>
+<xs:element name="semestr" type="xs:string"/>
+<xs:element name="kraj" type="xs:string"/>
+<xs:element name="tytuł" type="xs:string"/>
+<xs:element name="rok" type="xs:positiveInteger"/>
+<xs:element name="gatunek" type="xs:string"/>
+<xs:element name="uczelnia" type="xs:string"/>
+<xs:element name="wydział" type="xs:string"/>
+<xs:element name="miasto" type="xs:string"/>
+<xs:element name="data" type="xs:date"/>
+
+
+
+
+<!-- definition of attributes -->
+<xs:attribute name="id" type="xs:string"/>
+<xs:attribute name="idref" type="xs:string"/>
+
+<!-- definition of complex elements -->
+<xs:element name="student">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="imię"/>
+      <xs:element ref="nazwisko"/>
+      <xs:element ref="numer_indeksu"/>
+      <xs:element ref="kierunek"/>
+      <xs:element ref="semestr"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="książka">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="tytuł"/>
+      <xs:element ref="rok"/>
+      <xs:element ref="gatunek"/>
+    </xs:sequence>
+    <xs:attribute ref="id" use="required"/>
+    <xs:attribute ref="idref" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="autor">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="imie"/>
+      <xs:element ref="nazwisko"/>
+      <xs:element ref="kraj"/>
+    </xs:sequence>
+    <xs:attribute ref="id" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+ <xs:element name="studenci">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="student" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="id" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="nagłówek">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="uczelnia"/>
+      <xs:element ref="wydział"/>
+      <xs:element ref="miasto"/>
+      <xs:element ref="data"/>
+      <xs:element ref="studenci"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+ <xs:element name="autorzy">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="autor" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="id" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+ <xs:element name="książki">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="książka" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="id" use="required"/>
+     <xs:attribute ref="idref" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+ <xs:element name="książki">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="nagłówek"/>
+      <xs:element ref="autorzy"/>
+      <xs:element ref="książki"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

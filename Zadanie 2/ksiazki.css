@@ -1,0 +1,205 @@
+dokument {
+	margin: 1%;
+	padding: 2%;
+	background-color: #67c725;
+	text-align: center;
+	color: #000;
+	font-size: 10pt;
+	font-family: "Segoe UI";
+}
+nagłówek {
+	display: block;  
+	text-align: center;
+	background-color: #b6dc48;
+	font-size: 200%;
+	border: solid #000 1px;
+	border-radius: 2ex;
+	margin: 1%;
+}
+
+studenci {
+	display: block;
+}
+
+student {
+	display: inline-block;
+}
+
+student > imię::before {
+	content: "Imię: ";
+	font-weight: bold;
+}
+
+student > imię {
+	display: block;
+}
+
+student > nazwisko::before {
+	content: "Nazwisko: ";
+	font-weight: bold;
+}
+
+student > nazwisko {
+	display: block;
+}
+
+student > numer_indeksu::before {
+	content: "Number indeksu: ";
+	font-weight: bold;
+}
+
+student > numer_indesku {
+	display: block;
+}
+
+student > semestr::before {
+	content: "Semestr: ";
+	font-weight: bold;
+}
+
+student > semestr {
+	display: block;
+}
+
+student > kierunek::before {
+	content: "Kierunek: ";
+	font-weight: bold;
+}
+
+student > kierunek {
+	display: block;
+}
+
+książki {
+	display: block;
+	margin-bottom: 2%;
+}
+ 
+książki > książka {
+	font-size: 95%; 
+	text-align: left;
+	display: inline-block;
+	border-style: double;
+	border-radius: 3px;
+	border-color: #757600;
+	table-layout: fixed;
+	tab-size: 4px;
+	word-wrap: break-word;
+	width: 25%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #b67940;
+}
+
+
+książka > tytuł::before {
+	content: "Tytuł: ";
+	font-weight: bold;
+}
+
+książka > rok::before {
+	content: "Rok: ";
+	font-weight: bold;
+}
+
+książka > gatunek::before {
+	content: "Gatunek: ";
+	font-weight: bold;
+}
+
+książka > tytuł {
+	display:block;
+	text-decoration: underline;
+}
+
+książka > rok {
+	display:block;
+}
+
+książka > gatunek {
+	display:block;
+}
+
+
+autorzy {
+	display: block;
+}
+
+autorzy > autor {
+	
+	font-size: 95%; 
+	text-align: center;
+	display: inline-block;
+	border-style: double;
+	border-radius: 10px;
+	border-color: #757600;
+	table-layout: fixed;
+	tab-size: 4px;
+	word-wrap: break-word;
+	width: 25%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #279121;
+	
+}
+
+autor > imię::before {
+	content: "Imię: ";
+	font-weight: bold;
+}
+
+autor > nazwisko::before {
+	content: "Nazwisko: ";
+	font-weight: bold;
+}
+
+autor > kraj::before {
+	content: "Kraj: ";
+	font-weight: bold;
+}
+
+autor > imię {
+	display: block;
+}
+
+autor > nazwisko {
+	display: block;
+}
+
+autor > kraj {
+	display: block;
+}
+
+
+  [idref=autor_4] {
+	background-color: blanchedalmond;
+  } 
+  
+  [idref=autor_3] {
+	background-color: teal;
+	
+  } 
+  [idref=autor_2] {
+	background-color: hotpink;
+  } 
+  [idref=autor_1] {
+	background-color: navy;
+  } 
+  [id=autor_5] {
+	background-color: tomato;
+  } 
+  [id=autor_4] {
+	background-color: blanchedalmond;
+  } 
+  
+  [id=autor_3] {
+	background-color: teal;
+	
+	
+  } 
+  [id=autor_2] {
+	background-color: hotpink;
+  } 
+  [id=autor_1] {
+	background-color: navy;
+  } 
